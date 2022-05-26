@@ -1,0 +1,15 @@
+.btn{
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    padding: .5rem;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @extend %transition;
+    &:hover,&:focus{
+        color: white;
+        background-color: var(--color-primary);
+    }
+}

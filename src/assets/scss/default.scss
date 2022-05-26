@@ -1,0 +1,15 @@
+:root{
+    --color-primary: #2368ad;
+    --color-dark: #333;
+}
+
+
+
+body{
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: var(--color-dark);
+    // margin-top: 60px;
+}
+
+$max-width: 1536px;
+@import "./components";

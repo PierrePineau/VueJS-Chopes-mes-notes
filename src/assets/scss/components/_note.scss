@@ -1,0 +1,31 @@
+.note{
+    &__list{
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__item{
+        display: grid;
+        grid-template-columns: .5fr .5fr 1fr;
+        gap: .5rem;
+        padding: .5rem;
+        width: 100%;
+        align-items: center;
+        &:nth-child(2n+1){
+            // background-color: rgb(190, 190, 190);
+        }
+        &:nth-child(2n){
+            background-color: rgb(245, 245, 245);
+        }
+    }
+    &__name{
+
+    }
+    &__value{
+
+    }
+    &__moyenne{
+        align-self: flex-end;
+        padding: .5rem;
+    }
+}
