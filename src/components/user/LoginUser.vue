@@ -53,7 +53,7 @@ const login = async () => {
     document.cookie = "token=" + response + "; expires=" + date;
     document.cookie = "username=" + username.value + "; expires=" + date;
 
-
+    // this.$emit('isAuth');
     document.location.href = "/";
   } else if (request.status === 401) {
     console.error("error 401");

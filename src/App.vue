@@ -22,7 +22,6 @@ const routes = {
   "/": Home,
   "/jesappellecomment": Register,
   "/entrerdansleMilano": Login,
-  // "/account": Account,
 };
 const path = ref(window.location.pathname);
 
